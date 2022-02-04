@@ -22,10 +22,7 @@
     color: var(--primary-color);
     font-size: 3em;
 }
-.services .service > .title {
-}
-.services .service > .description {
-}
+
 
 @media (min-width: 800px) {
     .services .services-list {
