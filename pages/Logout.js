@@ -1,6 +1,11 @@
 import { PageTemplate } from "../lib/Page.js";
 
-class Page404 extends PageTemplate {
+class PageLogout extends PageTemplate {
+    /**
+     * Sabloninio puslapio konstruktorius.
+     * @constructor
+     * @param {object} data Duomenu objektas
+     */
     constructor(data) {
         super(data);
     }
@@ -9,8 +14,8 @@ class Page404 extends PageTemplate {
         return `<section class="container hero">
                     <div class="row">
                         <div class="left">
-                            <h1>404</h1>
-                            <p>Page not found</p>
+                            <h1>Logout</h1>
+                            <p>You have been successfully logged out</p>
                             <a href="/" class="btn">Go back home</a>
                         </div>
                         <div class="right">
@@ -21,4 +26,4 @@ class Page404 extends PageTemplate {
     }
 }
 
-export { Page404 };
+export { PageLogout };
